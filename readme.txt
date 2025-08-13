@@ -32,3 +32,4 @@ Correcion del archivo de Usuario:
 Creacion del contenido del archivo TipoUsuario.java:
 1. Creacion de: package com.example.Examen1Back2.modelos;
 2. Creacion del enum
+3. Creacion de la conexion de la base de datos
