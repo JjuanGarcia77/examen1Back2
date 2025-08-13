@@ -7,6 +7,8 @@ import jakarta.persistence.*;
 @Table(name = "usuarios")
 public class Usuario {
 
+                                        //--------CAMPOS-------
+
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
@@ -26,9 +28,13 @@ public class Usuario {
     @Enumerated(EnumType.STRING)
     private TipoUsuario tipoUsuario;
 
+                                        //-------RELACIONES-------
+
     @OneToOne(mappedBy = "usuario")
     @JsonBackReference(value = "docente-usuario")
     private Docente docente;
+
+                                        //-------CONSTRUCTORES-----
 
     public Usuario() {}
 
@@ -40,6 +46,8 @@ public class Usuario {
         this.telefono = telefono;
         this.tipoUsuario = tipoUsuario;
     }
+
+                                        //------GET Y SET------
 
     public Integer getId() {
         return id;
