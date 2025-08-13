@@ -28,3 +28,7 @@ Correcion del archivo de Usuario:
 6. Correcion de constructores
 7. Agregacion de Get y Set
 8. Se agrega la relación @OneToOne
+
+Creacion del contenido del archivo TipoUsuario.java:
+1. Creacion de: package com.example.Examen1Back2.modelos;
+2. Creacion del enum
