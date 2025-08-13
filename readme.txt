@@ -18,3 +18,13 @@ Correcion del archivo de Docente:
 4. Agregacion de @Column(name = "especialidad", nullable = false, unique = false, length = 30)
 5. Creacion de CONSTRUCTORES
 6. Get y Set de las Relaciones
+
+Correcion del archivo de Usuario:
+1. Agregacion de y en @Entit
+2. Agregar IDENTITY
+3. Quitar la @Colun(name = "id_usuario")
+4. modifacion de @Column(nullable = false, length = 100)
+5. Modificaion de los demas campos
+6. Correcion de constructores
+7. Agregacion de Get y Set
+8. Se agrega la relación @OneToOne
