@@ -9,4 +9,12 @@ para que se pueda apreciar en la base de datos.
 y correcion de espacios en el codigo
 6.  Correcion de sintaxis en el: Docente docente, agregandole un ; y el private
 7.  Agregacion en el constructor de Docente y docente
-6.  Generacion de get y set
+8.  Generacion de get y set
+
+Correcion del archivo de Docente:
+1. Agregacion de y en @Entit
+2. Agregacion de @Table(name = "docente")
+3. Agregacion de @Id
+4. Agregacion de @Column(name = "especialidad", nullable = false, unique = false, length = 30)
+5. Creacion de CONSTRUCTORES
+6. Get y Set de las Relaciones
