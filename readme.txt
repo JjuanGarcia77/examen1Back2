@@ -33,3 +33,9 @@ Creacion del contenido del archivo TipoUsuario.java:
 1. Creacion de: package com.example.Examen1Back2.modelos;
 2. Creacion del enum
 3. Creacion de la conexion de la base de datos
+
+se creo la base de datos otra vez por ordenes del archivo con el nombre nuevo solo se creo otra se cambio el nombre
+y se adjunto los url de la nueva base de datos
+
+se guardo la modificaion por un problema de error y con un git revert se regreso a lo que tenia antes, en el readme.txt
+en el cual se utilizo la para recuperar la informacion de como se volvio a crear la base de datos
