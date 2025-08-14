@@ -33,9 +33,3 @@ Creacion del contenido del archivo TipoUsuario.java:
 1. Creacion de: package com.example.Examen1Back2.modelos;
 2. Creacion del enum
 3. Creacion de la conexion de la base de datos
-
-Modificacion del nombre de la base de datos: se modifico porque al momento de usarla y ver el archivo con sus requerimientos
-decia un nombre en especifico y solo volvio a crear la base de datos y se cambio el nombre y la url de la conexion de la base de datos
-
-en los demas se hizo una modificacion en la organizacion del codigo como espacios y necesarios y asi, para no llenar
-de tantas lineas el codigo
